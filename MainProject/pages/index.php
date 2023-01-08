@@ -108,7 +108,7 @@ if ($Aa=='User'){
                   <div class="row no-gutters align-items-center">
 
                     <div class="col mr-0">
-                      <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Spare Parts</div>
+                      <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Products</div>
                       <div class="row no-gutters align-items-center">
                         <div class="col-auto">
                           <div class="h6 mb-0 mr-3 font-weight-bold text-gray-800">
