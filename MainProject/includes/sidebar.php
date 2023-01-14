@@ -92,7 +92,7 @@
       </li>
       
       <li class="nav-item">
-        <a class="nav-link" href="spare_parts.php">
+        <a class="nav-link" href="Products.php">
          
           <span>Products</span></a>
       </li>
