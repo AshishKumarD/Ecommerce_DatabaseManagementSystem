@@ -29,7 +29,7 @@ session_start();
                     }
                     $query111 = "INSERT INTO `transaction`
                                (`TRANS_ID`, `CUST_ID`, `NUMOFITEMS`, `SUBTOTAL`, `CASH`, `DATE`)
-                               VALUES (Null,'{$customer}','{$countID}','{$subtotal}','{$cash}','{$today}')";
+                               VALUES (Null,'{$customer}','{$countID}','{$cash}','{$cash}','{$today}')";
                    
                     /*$query111 = "INSERT INTO `transaction`
                                (`TRANS_ID`, `CUST_ID`, `NUMOFITEMS`, `SUBTOTAL`, `LESSVAT`, `NETVAT`, `ADDVAT`, `GRANDTOTAL`, `CASH`, `DATE`, `TRANS_D_ID`)
