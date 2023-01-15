@@ -47,7 +47,7 @@ include'../includes/sidebar.php';
             while ($row = mysqli_fetch_assoc($result)) {
                                  
                 echo '<tr>';
-                echo '<td>'. $row['TRANS_D_ID'].'</td>';
+                echo '<td>'. $row['TRANS_ID'].'</td>';
                 echo '<td>'. $row['FIRST_NAME'].' '. $row['LAST_NAME'].'</td>';
                 echo '<td>'. $row['NUMOFITEMS'].'</td>';
                       echo '<td align="right">
