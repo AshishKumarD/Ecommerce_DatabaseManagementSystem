@@ -19,14 +19,13 @@ include'../includes/sidebar.php';
 <?php
   }           
 }
-  $query = 'SELECT SUPPLIER_ID, COMPANY_NAME,  l.PROVINCE, l.CITY, PHONE_NUMBER FROM supplier e join location l on l.LOCATION_ID=e.LOCATION_ID WHERE SUPPLIER_ID ='.$_GET['id'];
+  $query = 'SELECT SUPPLIER_ID, COMPANY_NAME, PHONE_NUMBER FROM supplier e WHERE SUPPLIER_ID ='.$_GET['id'];
   $result = mysqli_query($db, $query) or die(mysqli_error($db));
     while($row = mysqli_fetch_array($result))
     {   
       $zz = $row['SUPPLIER_ID'];
       $a = $row['COMPANY_NAME'];
-      $b = $row['PROVINCE'];
-      $c = $row['CITY'];
+    
       $d = $row['PHONE_NUMBER'];
     }
       $id = $_GET['id'];
@@ -49,22 +48,8 @@ include'../includes/sidebar.php';
                   <input class="form-control" placeholder="Company Name" name="name" value="<?php echo $a; ?>" required>
                 </div>
               </div>
-              <div class="form-group row text-left text-warning">
-                <div class="col-sm-3" style="padding-top: 5px;">
-                 Province:
-                </div>
-                <div class="col-sm-9">
-                  <input class="form-control" placeholder="Province" name="province" value="<?php echo $b; ?>" required>
-                </div>
-              </div>
-              <div class="form-group row text-left text-warning">
-                <div class="col-sm-3" style="padding-top: 5px;">
-                 City:
-                </div>
-                <div class="col-sm-9">
-                   <input class="form-control" placeholder="City/Municipality" name="city" value="<?php echo $c; ?>" required>
-                </div>
-              </div>
+             
+              
               <div class="form-group row text-left text-warning">
                 <div class="col-sm-3" style="padding-top: 5px;">
                  Phone Number:

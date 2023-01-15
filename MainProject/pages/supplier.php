@@ -88,12 +88,7 @@ include'../includes/sidebar.php';
               <div class="form-group">
                 <input class="form-control" placeholder="Company Name" name="companyname" required>
               </div>
-              <div class="form-group">
-                <select class="form-control" id="province" placeholder="Province" name="province" required></select>
-              </div>
-              <div class="form-group">
-                <select class="form-control" id="city" placeholder="City" name="city" required></select>
-              </div>
+            
               <div class="form-group">
                 <input class="form-control" placeholder="Phone Number" name="phonenumber" required>
               </div>
