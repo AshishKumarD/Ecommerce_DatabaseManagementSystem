@@ -93,29 +93,6 @@ INSERT INTO `employee` VALUES (1,'Ashish','Kumar','Male','ashish@gmail.com','101
 /*!40000 ALTER TABLE `employee` ENABLE KEYS */;
 UNLOCK TABLES;
 
---
--- Table structure for table `manager`
---
-
-DROP TABLE IF EXISTS `manager`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `manager` (
-  `FIRST_NAME` varchar(50) DEFAULT NULL,
-  `LAST_NAME` varchar(50) DEFAULT NULL,
-  `EMAIL` varchar(50) DEFAULT NULL,
-  `PHONE_NUMBER` varchar(11) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `manager`
---
-
-LOCK TABLES `manager` WRITE;
-/*!40000 ALTER TABLE `manager` DISABLE KEYS */;
-/*!40000 ALTER TABLE `manager` ENABLE KEYS */;
-UNLOCK TABLES;
 
 --
 -- Table structure for table `product`
