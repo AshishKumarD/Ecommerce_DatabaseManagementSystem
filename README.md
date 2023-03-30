@@ -9,3 +9,5 @@ The E-commerce Management is developed for sale/purchase organization. This syst
 The purpose of this project is to develop an application program to reduce the manual work formanaging inventory, product, customer, supplier and orders. This project is built to help admin in managing his organization.
 
 Admin can store customer details in the database. Next time when customer comes in then there is no need to enter his details again. It can selected from the list displaying all customers.
+
+Project Report: E-Commerce_DBMS_ProjectReport.pdf
