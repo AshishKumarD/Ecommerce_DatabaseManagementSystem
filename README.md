@@ -10,4 +10,5 @@ The purpose of this project is to develop an application program to reduce the m
 
 Admin can store customer details in the database. Next time when customer comes in then there is no need to enter his details again. It can selected from the list displaying all customers.
 
-Project Report: E-Commerce_DBMS_ProjectReport.pdf
+Project Report: https://github.com/AshishKumarD/Ecommerce_DatabaseManagementSystem/blob/3945ec5902e470a9957c03dcf1ed4463487bd072/E-Commerce_DBMS_ProjectReport.pdf
+Database from SQLDump: https://github.com/AshishKumarD/Ecommerce_DatabaseManagementSystem/blob/3945ec5902e470a9957c03dcf1ed4463487bd072/ecommerce.sql
